@@ -1,0 +1,15 @@
+[package]
+name = "Simple-Invoice-Payment"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule='0x39eb61a290cc95086a33315e80d3a81a06897965a2be6dbd5dce5330df42ef43'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
